@@ -12,7 +12,7 @@ class Calculator {
     }
 
     acceptInput = (number) => {
-        if (number === '.' && this.currentInput.indexOf('.') >= 0)
+        if (number === '.' && this.currentInput.toString().indexOf('.') >= 0)
             return;
         if (this.currentInput) {
             this.currentInput = this.currentInput + number;
