@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#calculator {
+  width: 420px;
+  height: auto;
+  background-color: #eaedef;
+  margin: 0 auto;
+  top: 20px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.result {
+  height: 120px;
+  background: #515354;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.result .previous-input {
+  color: #ffffe6;
+  font-size: 1.5rem;
+}
+
+.result .current-input {
+  color: #ffffe6;
+  font-size: 2.5rem;
+}
+
+.operator,
+.number,
+#btnAC,
+#btnDel,
+#btnEquals {
+  width: 100px;
+  height: 100px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #565454;
+  font-size: 1.4rem;
+  background: #7f7e7d;
+  color: #fff;
+  margin: 1px;
+}
+
+#keyboard {
+  background: #515354;
+}
+
+#calculator button:hover {
+  background: rgba(127, 126, 125, 0.8);
+}
+
+#btnZero {
+  width: 206px;
+}
+
+#btnAC {
+  background: #ff5952;
+}
+
+#btnEquals {
+  background: #008000;
+}
+
+
